@@ -3,6 +3,8 @@
 nav {
     background-color: #00a2c6;
     padding: 5px;
+    position: sticky;
+    top: 0;
 }
 
 nav a {
@@ -32,6 +34,10 @@ nav li {
     background-color: #00c8eb;
     text-align: center;
     color: white;
+}
+
+header {
+    display: inline;
 }
 
 .featured-image {
@@ -88,4 +94,12 @@ footer {
     background-color: #00a2c6;
     text-align: center;
     font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
 }
