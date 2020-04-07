@@ -36,6 +36,12 @@ nav li {
     color: white;
 }
 
+/*Make smooth scroll*/
+html {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
 header {
     display: inline;
 }
@@ -61,12 +67,14 @@ header {
 #content {
     float: left;
     width: 75%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 
 body {
     font-family: 'Quicksand', sans-serif;
     margin: 0;
-   padding: 0;
+    padding: 0;
 }
 
 h2, h3 {
