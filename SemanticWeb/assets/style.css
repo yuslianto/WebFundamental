@@ -1,0 +1,42 @@
+.jumbotron {
+    font-size: 30px;
+    padding: 60px;
+    background-color: red;
+    color: aqua;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav {
+    background-color: darkslategray;
+    padding: 10px;
+    text-decoration: antiquewhite;
+    color: white;
+    overflow: hidden;
+}
+
+nav ul {
+    float: left;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+    color: aquamarine;
+}
+
+.topnav-rigth {
+    float: right;
+}
