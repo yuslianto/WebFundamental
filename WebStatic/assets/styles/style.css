@@ -67,8 +67,6 @@ header {
 #content {
     float: left;
     width: 75%;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
 }
 
 body {

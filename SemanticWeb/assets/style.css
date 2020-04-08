@@ -1,3 +1,18 @@
+html {
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: serif, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: inline;
+}
+
 .jumbotron {
     font-size: 30px;
     padding: 60px;
@@ -39,4 +54,32 @@ nav a:hover {
 
 .topnav-rigth {
     float: right;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+#content {
+    float: left;
+    width: 75%;
+}
+
+.card {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h2, h3 {
+    color: aqua;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
 }
