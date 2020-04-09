@@ -28,6 +28,8 @@ nav {
     text-decoration: antiquewhite;
     color: white;
     overflow: hidden;
+    top: 0;
+    position: sticky;
 }
 
 nav ul {
@@ -82,4 +84,38 @@ h2, h3 {
     max-height: 300px;
     object-fit: cover;
     object-position: center;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+.profileImg {
+    max-height: 300px;
+}
+
+.profile header {
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: aqua;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
 }
