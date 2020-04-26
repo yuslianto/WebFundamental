@@ -1,50 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
 </head>
 <body>
     <header>
-        <div class="jumbotron">
-            <h1>Yuslianto</h1>
-            <p>This is my portfolio website</p>
-        </div>
-
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
+                <li><a class="active" href="#home">Home</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#resume">Resume</a></li>
+                <li><a href="#skill">Skill</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <div class="topnav-rigth">
-                <ul>
-                    <li><a href="#">About Me</a></li>
-                </ul>
+            <div class="search-container">
+                <form action="">
+                    <input type="text" placeholder="Seacrh" name="search">
+                    <button type="submit">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </form>
             </div>
         </nav>
     </header>
 
     <main>
+        <div id="home" class="jumbotron">
+            <div class="jumboTron-text">
+                <h1>Yuslianto</h1>
+                <p>
+                    I'm a Indonesia based React Native Developer, Mobile Developer and Junior Programmer. I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.. Let's start scrolling and learn more about me
+                </p>
+            </div>
+        </div>
         <div id="content">
-            <article id="home" class="card">
-                <h2>Home</h2>
-                <img src="assets/images/myVillage.jpg" class="featured-image" alt="home">
-                <p>this home</p>
-            </article>
-
             <article id="education" class="card">
                 <h2>Education</h2>
-                <img src="assets/images/myVillage.jpg" class="featured-image" alt="education">
+                <img src="assets/images/myVillage.jpg" class="featured-image" alt="home">
                 <p>this Education</p>
             </article>
 
             <article id="resume" class="card">
                 <h2>Resume</h2>
-                <img src="assets/images/myVillage.jpg" class="featured-image" alt="resume">
+                <img src="assets/images/myVillage.jpg" class="featured-image" alt="education">
                 <p>this Resume</p>
+            </article>
+
+            <article id="skill" class="card">
+                <h2>Skill</h2>
+                <img src="assets/images/myVillage.jpg" class="featured-image" alt="resume">
+                <p>this Skill</p>
             </article>
 
             <article id="contact" class="card">

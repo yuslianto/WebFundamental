@@ -1,0 +1,61 @@
+@import "navBar.css";
+@import "card.css";
+@import "jumboTron.css";
+@IMPORT "aside.css";
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: block;
+}
+
+body {
+    font-family: serif, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 0px;
+    overflow: auto;
+}
+
+h2, h3 {
+    color: aqua;
+}
+
+#content {
+    float: left;
+    width: 75%;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: aqua;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}

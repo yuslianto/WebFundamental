@@ -1,0 +1,60 @@
+nav {
+    background-color: darkslategray;
+    padding: 8px;
+    text-decoration: antiquewhite;
+    color: white;
+    overflow: hidden;
+    top: 0;
+    position: sticky;
+    z-index: 1;
+    display: block;
+}
+
+nav ul {
+    float: left;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+    color: aquamarine;
+}
+
+nav a.active {
+    color: aqua;
+    background-color: #fff;
+}
+
+nav .search-container {
+    float: right;
+}
+
+.search-container input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.search-container button {
+    float: right;
+    padding: 10px 10px;
+    margin-top: 10px;
+    margin-right: 16px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    color: black;
+}
